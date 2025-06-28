@@ -6,7 +6,7 @@ import { Download, FileText } from 'lucide-react';
 
 const Resume = () => {
   // You can replace this with your actual resume PDF URL
-  const resumeUrl = "/resume.pdf"; // Place your resume.pdf in the public folder
+  const resumeUrl = "/Aryan_Resume.pdf"; // Place your resume.pdf in the public folder
 
   const handleDownload = () => {
     const link = document.createElement('a');
