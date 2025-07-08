@@ -244,7 +244,7 @@ const ContactSection = () => {
   const statusConfig = getStatusConfig(availabilityStatus);
 
   return (
-<section id="certifications" ref={contactRef} className="py-20 bg-gradient-to-br from-background to-muted/20 relative overflow-hidden">
+<section id="contact" ref={contactRef} className="py-20 bg-gradient-to-br from-background to-muted/20 relative overflow-hidden">
       {/* Animated Background */}
       <div className="stars absolute inset-0"></div>
       <div className="clouds absolute inset-0"></div>      <div className="container mx-auto px-4">
@@ -501,7 +501,8 @@ const ContactSection = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="mailto:16aryansin@gmail.com?subject=New Project Inquiry"
+                  href="https://mail.google.com/mail/?view=cm&to=16aryansin@gmail.com&su=New%20Project%20Inquiry"
+
                   className="inline-flex items-center justify-center px-8 py-4 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 hover:scale-105 transition-all duration-300 font-medium"
                 >
                   <Mail className="w-5 h-5 mr-2" />

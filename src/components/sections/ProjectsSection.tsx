@@ -48,8 +48,8 @@ const ProjectsSection = () => {
       description: 'Advanced CNN-based web application for accurate deepfake image detection using computer vision techniques.',
       image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=300&fit=crop',
       technologies: ['Python', 'TensorFlow', 'Flask', 'NumPy'],
-      github: '#',
-      demo: '#',
+      // github: '#',
+      // demo: '#',
       featured: true
     },
     {
@@ -57,8 +57,8 @@ const ProjectsSection = () => {
       description: 'Machine learning system for waste type classification and automated disposal bin identification.',
       image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=300&fit=crop',
       technologies: ['Python', 'TensorFlow', 'Keras', 'Computer Vision'],
-      github: '#',
-      demo: '#',
+      // github: '#',
+      // demo: '#',
       featured: true
     }
   ];
@@ -119,20 +119,30 @@ const ProjectsSection = () => {
                   </div>
 
                   {/* Project Links */}
-                  <div className="flex space-x-4">
-                    <a 
-                      href={project.github}
-                      className="text-foreground/60 hover:text-primary transition-colors duration-200"
-                    >
-                      GitHub
-                    </a>
-                    <a 
-                      href={project.demo}
-                      className="text-foreground/60 hover:text-primary transition-colors duration-200"
-                    >
-                      Live Demo
-                    </a>
-                  </div>
+                  {/* Project Links */}
+<div className="flex space-x-4">
+  {project.github?.trim() && (
+    <a 
+      href={project.github}
+      className="text-foreground/60 hover:text-primary transition-colors duration-200"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      GitHub
+    </a>
+  )}
+  {project.demo?.trim() && (
+    <a 
+      href={project.demo}
+      className="text-foreground/60 hover:text-primary transition-colors duration-200"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Live Demo
+    </a>
+  )}
+</div>
+
                 </div>
               </div>
             ))}
