@@ -58,15 +58,15 @@ const SkillsSection = () => {
 
   const technicalSkills = [
     { name: 'Python', level: 90, color: 'from-yellow-400 to-yellow-600' },
-    { name: 'JavaScript', level: 85, color: 'from-yellow-500 to-orange-500' },
-    { name: 'React', level: 88, color: 'from-blue-400 to-blue-600' },
+    { name: 'JavaScript', level: 80, color: 'from-yellow-500 to-orange-500' },
+    { name: 'React', level: 80, color: 'from-blue-400 to-blue-600' },
     { name: 'HTML/CSS', level: 90, color: 'from-orange-400 to-red-500' },
-    { name: 'SQL', level: 80, color: 'from-blue-500 to-indigo-600' },
-    { name: 'Java', level: 75, color: 'from-red-500 to-red-700' },
-    { name: 'Flask', level: 82, color: 'from-gray-600 to-gray-800' },
+    { name: 'SQL', level: 85, color: 'from-blue-500 to-indigo-600' },
+    { name: 'Java', level: 65, color: 'from-red-500 to-red-700' },
+    { name: 'Flask', level: 75, color: 'from-blue-600 to-gray-800' },
     { name: 'Git', level: 85, color: 'from-orange-500 to-red-600' },
-    { name: 'Linux', level: 78, color: 'from-yellow-600 to-black' },
-    { name: 'TensorFlow', level: 70, color: 'from-orange-400 to-orange-600' },
+    { name: 'Linux', level: 75, color: 'from-yellow-600 to-black' },
+    { name: 'TensorFlow', level: 60, color: 'from-orange-400 to-orange-600' },
     { name: 'NumPy/Pandas', level: 80, color: 'from-blue-600 to-purple-600' },
     { name: 'Cybersecurity', level: 75, color: 'from-red-600 to-pink-600' },
   ];

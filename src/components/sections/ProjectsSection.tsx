@@ -28,19 +28,19 @@ const ProjectsSection = () => {
     {
       title: 'Real-time Multiplayer Tic-Tac-Toe with Chat',
       description: 'A real-time multiplayer game with private rooms and integrated chat functionality for engaging user experience.',
-      image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=500&h=300&fit=crop',
+      image: 'tictac.png',
       technologies: ['Node.js', 'Express.js', 'Socket.io', 'JavaScript'],
-      github: '#',
-      demo: '#',
+      github: 'https://github.com/Aryan0116/Tic-tac-toe?tab=readme-ov-file',
+      demo: 'https://tic-tac-toe-940j.onrender.com/',
       featured: true
     },
     {
       title: 'COA Hub: Interactive Teaching Learning App',
       description: 'An interactive web platform for Computer Organization and Architecture with study modules, quizzes, and AI chatbot.',
-      image: 'https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=500&h=300&fit=crop',
-      technologies: ['React', 'Express.js', 'JavaScript', 'HTML/CSS'],
-      github: '#',
-      demo: '#',
+      image: 'coahub.png',
+      technologies: ['React', 'Supabase', 'JavaScript', 'Typescript', 'HTML/CSS'],
+      github: 'https://github.com/Aryan0116/DECODE-CO-A?tab=readme-ov-file',
+      demo: 'https://aryan0116.github.io/DECODE-CO-A/',
       featured: true
     },
     {

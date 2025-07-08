@@ -14,22 +14,22 @@ const Projects = () => {
       title: 'Real-time Multiplayer Tic-Tac-Toe with Chat',
       description: 'A real-time multiplayer game with private rooms and integrated chat functionality for engaging user experience.',
       fullDescription: 'Designed and implemented a real-time multiplayer Tic-Tac-Toe game application featuring private rooms and integrated chat functionality, providing an engaging user experience. Users can create or join game rooms, play with friends, and communicate through real-time chat.',
-      image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=500&h=300&fit=crop',
+      image: 'tictac.png',
       technologies: ['Node.js', 'Express.js', 'Socket.io', 'HTML', 'CSS', 'JavaScript'],
       category: 'web',
-      github: '#',
-      demo: '#',
+      github: 'https://github.com/Aryan0116/Tic-tac-toe',
+      demo: 'https://tic-tac-toe-940j.onrender.com/',
       featured: true
     },
     {
       title: 'COA Hub: Interactive Teaching Learning Web Application',
       description: 'An interactive web platform for Computer Organization and Architecture with study modules, quizzes, and AI chatbot.',
       fullDescription: 'Developed "COA Hub," an interactive web application designed for teaching and learning Computer Organization and Architecture. The platform includes study modules, quizzes, progress tracking, discussion forums, and an AI-powered chatbot for doubt resolution.',
-      image: 'https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=500&h=300&fit=crop',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Express.js'],
+      image: 'coahub.png',
+      technologies: ['React', 'Supabase', 'JavaScript', 'Typescript', 'HTML/CSS'],
       category: 'web',
-      github: '#',
-      demo: '#',
+      github: 'https://github.com/Aryan0116/DECODE-CO-A?tab=readme-ov-file',
+      demo: 'https://aryan0116.github.io/DECODE-CO-A/',
       featured: true
     },
     {
@@ -54,50 +54,50 @@ const Projects = () => {
       demo: '#',
       featured: true
     },
-    {
-      title: 'E-Commerce Platform with Payment Integration',
-      description: 'Full-stack e-commerce solution with secure payment processing and admin dashboard.',
-      fullDescription: 'Built a comprehensive e-commerce platform featuring user authentication, product catalog, shopping cart, secure payment integration, order management, and admin dashboard for inventory and sales tracking.',
-      image: 'https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=500&h=300&fit=crop',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe API', 'JWT'],
-      category: 'web',
-      github: '#',
-      demo: '#',
-      featured: false
-    },
-    {
-      title: 'Social Media Analytics Dashboard',
-      description: 'Data visualization dashboard for social media metrics and engagement analytics.',
-      fullDescription: 'Created an interactive dashboard for analyzing social media performance across multiple platforms, featuring real-time data visualization, engagement metrics, and trend analysis with customizable reporting.',
-      image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=500&h=300&fit=crop',
-      technologies: ['React', 'D3.js', 'Python', 'Flask', 'PostgreSQL'],
-      category: 'data',
-      github: '#',
-      demo: '#',
-      featured: false
-    },
-    {
-      title: 'Stock Price Prediction Model',
-      description: 'Machine learning model for predicting stock prices using historical data and market indicators.',
-      fullDescription: 'Developed a sophisticated machine learning model using LSTM neural networks to predict stock prices based on historical data, technical indicators, and market sentiment analysis.',
-      image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=300&fit=crop',
-      technologies: ['Python', 'TensorFlow', 'Keras', 'Pandas', 'NumPy', 'Scikit-learn'],
-      category: 'ml',
-      github: '#',
-      demo: '#',
-      featured: false
-    },
-    {
-      title: 'Task Management Progressive Web App',
-      description: 'Cross-platform PWA for task management with offline capabilities and real-time sync.',
-      fullDescription: 'Built a Progressive Web App for task management featuring offline functionality, real-time collaboration, push notifications, and cross-platform compatibility with native app-like experience.',
-      image: 'https://images.unsplash.com/photo-1527576539890-dfa815648363?w=500&h=300&fit=crop',
-      technologies: ['React', 'Service Workers', 'IndexedDB', 'WebSocket', 'PWA'],
-      category: 'web',
-      github: '#',
-      demo: '#',
-      featured: false
-    }
+    // {
+    //   title: 'E-Commerce Platform with Payment Integration',
+    //   description: 'Full-stack e-commerce solution with secure payment processing and admin dashboard.',
+    //   fullDescription: 'Built a comprehensive e-commerce platform featuring user authentication, product catalog, shopping cart, secure payment integration, order management, and admin dashboard for inventory and sales tracking.',
+    //   image: 'https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=500&h=300&fit=crop',
+    //   technologies: ['React', 'Node.js', 'MongoDB', 'Stripe API', 'JWT'],
+    //   category: 'web',
+    //   github: '#',
+    //   demo: '#',
+    //   featured: false
+    // },
+    // {
+    //   title: 'Social Media Analytics Dashboard',
+    //   description: 'Data visualization dashboard for social media metrics and engagement analytics.',
+    //   fullDescription: 'Created an interactive dashboard for analyzing social media performance across multiple platforms, featuring real-time data visualization, engagement metrics, and trend analysis with customizable reporting.',
+    //   image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=500&h=300&fit=crop',
+    //   technologies: ['React', 'D3.js', 'Python', 'Flask', 'PostgreSQL'],
+    //   category: 'data',
+    //   github: '#',
+    //   demo: '#',
+    //   featured: false
+    // },
+    // {
+    //   title: 'Stock Price Prediction Model',
+    //   description: 'Machine learning model for predicting stock prices using historical data and market indicators.',
+    //   fullDescription: 'Developed a sophisticated machine learning model using LSTM neural networks to predict stock prices based on historical data, technical indicators, and market sentiment analysis.',
+    //   image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=300&fit=crop',
+    //   technologies: ['Python', 'TensorFlow', 'Keras', 'Pandas', 'NumPy', 'Scikit-learn'],
+    //   category: 'ml',
+    //   github: '#',
+    //   demo: '#',
+    //   featured: false
+    // },
+    // {
+    //   title: 'Task Management Progressive Web App',
+    //   description: 'Cross-platform PWA for task management with offline capabilities and real-time sync.',
+    //   fullDescription: 'Built a Progressive Web App for task management featuring offline functionality, real-time collaboration, push notifications, and cross-platform compatibility with native app-like experience.',
+    //   image: 'https://images.unsplash.com/photo-1527576539890-dfa815648363?w=500&h=300&fit=crop',
+    //   technologies: ['React', 'Service Workers', 'IndexedDB', 'WebSocket', 'PWA'],
+    //   category: 'web',
+    //   github: '#',
+    //   demo: '#',
+    //   featured: false
+    // }
   ];
 
   const categories = [

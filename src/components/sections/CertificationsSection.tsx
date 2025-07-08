@@ -27,37 +27,33 @@ const CertificationsSection = () => {
 
   const certifications = [
     {
-      title: 'AWS Cloud Practitioner',
-      issuer: 'Amazon Web Services',
-      date: 'December 2023',
-      description: 'Foundational understanding of AWS Cloud services and best practices.',
-      driveId: '1your-google-drive-file-id-here',
-      credentialId: 'AWS-CP-2023-001'
-    },
-    {
-      title: 'React Developer Certification',
-      issuer: 'Meta',
+      title: 'Introduction to Front-end Development',
+      issuer: 'META',
       date: 'November 2023',
-      description: 'Advanced React concepts including hooks, context, and performance optimization.',
-      driveId: '1your-google-drive-file-id-here-2',
-      credentialId: 'META-REACT-2023-002'
+      description: 'Introduction to Front-end Development.',
+      driveId: '12vAFag8Iq_eEimRWGncEU_Q2nytsK9eW'
     },
     {
-      title: 'Machine Learning Fundamentals',
-      issuer: 'Google',
-      date: 'October 2023',
-      description: 'Core machine learning concepts and practical implementation using TensorFlow.',
-      driveId: '1your-google-drive-file-id-here-3',
-      credentialId: 'GOOGLE-ML-2023-003'
+      title: 'Introduction to Scripting in Python',
+      issuer: 'Rice University',
+      date: 'September 2022',
+      description: 'Introduction to Scripting in Python.',
+      driveId: '1TlYqSJhku_L890tZmL3ozFBepZ9cGTbN',
     },
-    {
-      title: 'Full Stack Web Development',
-      issuer: 'freeCodeCamp',
-      date: 'September 2023',
-      description: 'Comprehensive training in modern web development technologies and frameworks.',
-      driveId: '1your-google-drive-file-id-here-4',
-      credentialId: 'FCC-FSWD-2023-004'
-    }
+    // {
+    //   title: 'Machine Learning Fundamentals',
+    //   issuer: 'Google',
+    //   date: 'October 2023',
+    //   description: 'Core machine learning concepts and practical implementation using TensorFlow.',
+    //   driveId: '1your-google-drive-file-id-here-3',
+    // },
+    // {
+    //   title: 'Full Stack Web Development',
+    //   issuer: 'freeCodeCamp',
+    //   date: 'September 2023',
+    //   description: 'Comprehensive training in modern web development technologies and frameworks.',
+    //   driveId: '1your-google-drive-file-id-here-4',
+    // }
   ];
 
   const getGoogleDrivePreviewUrl = (driveId: string) => {
@@ -121,10 +117,10 @@ const CertificationsSection = () => {
                     {cert.description}
                   </p>
                   
-                  <div className="mb-4">
+                  {/* <div className="mb-4">
                     <span className="text-sm text-foreground/60">Credential ID: </span>
                     <span className="text-sm font-mono text-primary">{cert.credentialId}</span>
-                  </div>
+                  </div> */}
 
                   <div className="flex space-x-3">
                     <Button 
